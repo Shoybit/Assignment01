@@ -208,7 +208,7 @@ font-family: "Inter", sans-serif;
 section.Action-main {
     width: 1570px;
     height: 328px;
-    background-color: #fff;
+    background-color: #f5f8ff;
     margin: 0 auto;
     margin-top: 116px;
 }
@@ -216,6 +216,7 @@ section.Action-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #F5F8FF;
 }
 h3.action-h1 {
     font-size: 42px;
@@ -284,4 +285,61 @@ p.pro-p {
     margin: 0 auto;
     text-align: center;
     color: #00000066;
+    font-family: "Inter", sans-serif;
+}
+/* user------- */
+section.Users {
+    width: 1571px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 137px;
+    border-radius: 22px;
+}
+h3.user-text-h3- {
+    text-align: center;
+    font-size: 48px;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+}
+.user-flex {
+    width: 485px;
+    height: 253px;
+    background-color: #ffffff;
+    border-radius: 13px;
+    margin-top: 60px;
+}
+.user-all-product {
+    padding: 20px 35px;
+}
+.user-h3 {
+    font-size: 21px;
+    padding: 0px 35px;
+    font-family: "Raleway", sans-serif;
+    color: #1E1E1E;
+}
+p.user-p {
+    font-size: 20px;
+    color: #1E1E1E;
+    padding: 20px 35px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+.user-avatar-main {
+    padding: 10px 35px;
+    display: flex;
+    gap: 12px;
+}
+h5.user-text-h5 {
+    font-size: 21px;
+    color: #757575;
+    font-family: "Inter", sans-serif;
+}
+p.user-p-text {
+    font-size: 21px;
+    color: #B3B3B3;
+    margin-top: 5px;
+}
+.user-main-flex {
+    display: flex;
+    justify-content: space-between;
 }

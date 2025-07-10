@@ -49,8 +49,15 @@ button.primary-btn {
     font-size: 16px;
     color: white;
     font-family: "Inter", sans-serif;
-
 }
+/* btn hover -------------------------------------*/
+.primary-btn:hover{
+    color: #ffffff;
+    background-color:#0092f3;;
+    font-size: 18px;
+    transition: 0.5s;
+}
+/* btn hover end------------------------------------ */
 .nav-h1 {
     text-align: center;
     font-size: 65px;
@@ -102,4 +109,179 @@ p.action-p {
 
 .action-secendary, img {
     border-radius: 50px;
+}
+/* Productive start */
+section.Productive {
+    width: 1570px;
+    background: aqua;
+    height: 306px;
+    margin: 0 auto;
+    margin-top: 116px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+}
+.Productive-main {
+    width: 1270px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    height: 206px;
+}
+
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav start */
+.nav-main{
+    background-image: url(./Assets/Hero-bg.png);
+    height: 698px;
+}
+nav {
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+}
+ul {
+    display: flex;
+    padding: 52px 51px;
+    justify-content: space-between;
+    width: 1570px;
+    margin: 0 auto;
+}
+
+li {
+    font-weight: 900;
+    color: #4E47FF;
+    list-style: none;
+}
+button.primary-btn {
+    width: 133px;
+    height: 48px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+/* btn hover -------------------------------------*/
+.primary-btn:hover{
+    color: #ffffff;
+    background-color:#0092f3;;
+    font-size: 18px;
+    transition: 0.5s;
+}
+/* btn hover end------------------------------------ */
+.nav-h1 {
+    text-align: center;
+    font-size: 65px;
+    font-family: "Raleway", sans-serif;
+}
+.nav-h1 {
+    text-align: center;
+    font-size: 65px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 80px;
+}
+.nav-h1 .primary-btn{ 
+width: 174px;
+font-family: "Inter", sans-serif;
+}
+
+/* Action start */
+
+section.Action-main {
+    width: 1570px;
+    height: 328px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+.action-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3.action-h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+}
+p.action-p {
+    font-size: 24px;
+    font-weight: normal;
+    color: #00000066;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+}
+.action-text .primary-btn{
+     font-family: "Raleway", sans-serif;
+     width: 229px;
+     margin-top: 20px;
+}
+
+.action-secendary, img {
+    border-radius: 50px;
+}
+/* Productive start */
+section.Productive {
+    width: 1570px;
+    background: #130af114;
+    height: 306px;
+    margin: 0 auto;
+    margin-top: 116px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+}
+.Productive-main {
+    width: 1270px;
+    margin: 0 auto;
+    height: 206px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4e47ff00;
+}
+h3.Productive-h3 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+}
+.pro-h1-pro-p {
+    display: flex;
+    margin-top: 40px;
+    gap: 180px;
+}
+h1.pro-h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+
+}
+
+p.pro-p {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #00000066;
 }

@@ -160,7 +160,7 @@ ul {
     display: flex;
     padding: 52px 51px;
     justify-content: space-between;
-    width: 1570px;
+    width: 1360px;
     margin: 0 auto;
 }
 
@@ -194,7 +194,7 @@ button.primary-btn {
 }
 .nav-h1 {
     text-align: center;
-    font-size: 65px;
+    font-size: 60px;
     font-family: "Raleway", sans-serif;
     margin-top: 80px;
 }
@@ -206,7 +206,7 @@ font-family: "Inter", sans-serif;
 /* Action start */
 
 section.Action-main {
-    width: 1570px;
+    width: 1360px;
     height: 328px;
     background-color: #f5f8ff;
     margin: 0 auto;
@@ -242,7 +242,7 @@ p.action-p {
 }
 /* Productive start */
 section.Productive {
-    width: 1570px;
+    width: 1360px;
     background: #130af114;
     height: 306px;
     margin: 0 auto;
@@ -289,7 +289,7 @@ p.pro-p {
 }
 /* user------- */
 section.Users {
-    width: 1571px;
+    width: 1360px;
     height: 370px;
     margin: 0 auto;
     margin-top: 137px;
@@ -302,10 +302,10 @@ h3.user-text-h3- {
     font-family: "Raleway", sans-serif;
 }
 .user-flex {
-    width: 485px;
+    width: 435px;
     height: 253px;
     background-color: #ffffff;
-    border-radius: 13px;
+    border-radius: 16px;
     margin-top: 60px;
 }
 .user-all-product {
@@ -342,4 +342,43 @@ p.user-p-text {
 .user-main-flex {
     display: flex;
     justify-content: space-between;
+}
+/* focus */
+section.focus {
+    width: 1360px;
+    height: 680px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 137px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.focus-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+img.focus-img {
+    /* width: 990px; */
+}
+h1.focus-h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+
+}
+
+p.focus-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000082;
+    font-family: "Raleway", sans-serif;
+}
+
+button.primary-btn {
+    width: 195px;
 }

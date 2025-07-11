@@ -175,7 +175,7 @@ h3.user-text-h3- {
 }
 .user-flex {
     width: 435px;
-    height: 253px;
+    height: 265px;
     background-color: #ffffff;
     border-radius: 16px;
     margin-top: 60px;
@@ -210,6 +210,7 @@ p.user-p-text {
     font-size: 21px;
     color: #B3B3B3;
     margin-top: 5px;
+    font-family: "Inter", sans-serif;
 }
 .user-main-flex {
     display: flex;

@@ -56,6 +56,7 @@ button.primary-btn {
     background-color:#0092f3;;
     font-size: 18px;
     transition: 0.5s;
+    cursor: pointer;
 }
 /* btn hover end------------------------------------ */
 .nav-h1 {
@@ -316,4 +317,50 @@ label {
     font-size: 18px;
     font-family: "Inter", sans-serif;
 
+}
+/* footer------------------------------------------ */
+ul.footer-ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: end;
+}
+
+p.footer-p {
+    padding: 18px 683px;
+    text-align: center;
+    font-size: 16px;
+    color: #8987A1;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.footer-last {
+    margin-top: -31px;
+    font-family: "Inter", sans-serif;
+
+}
+.footer-main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1.footer-h1 {
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    margin-top: 85px;
+}
+.footer-last ul li a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400;
+}
+section.footer {
+    margin-top: 14px;
+    background-color: #fff;
+    height: 428px;
 }
